@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: 关于innerText、textContent以及innerHTML的区别
 date: 2018-03-02
 description: "了解下这三者的区别，方便接下来更好的使用"
