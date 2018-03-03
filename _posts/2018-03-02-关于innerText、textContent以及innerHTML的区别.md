@@ -55,4 +55,4 @@ js代码如下：
 
 结果如下图：
 
-![](/images/posts/html/textContent-innerText-innerHTML-js.png "结果展示")
+![](/images/posts/js/textContent-innerText-innerHTML-js.png "结果展示")
