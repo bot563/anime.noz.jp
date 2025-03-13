@@ -1,6 +1,6 @@
 # Basic
-title: 大只彬
-subtitle: 个人博客
+title: Comu Nime 🇯🇵|🇲🇨
+subtitle: コミュニティブログ
 description: 欢迎来到我的个人博客～(￣▽￣～)(～￣▽￣)～
 # 头像里面的标题
 avatarTitle: 前端占坑
@@ -53,7 +53,7 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: ブログホーム
 
 # Navigation buttons in the front page.s
 nav:
