@@ -6,7 +6,7 @@ description: アニメコミュニティへようこそ ☺️
 avatarTitle: ふふふ
 # 头像里面的描述
 avatarDesc: Hello 👋 
-url: "http://talentbin.top"
+url: "https://anime.noz.jp"
 
 # Comment
 comment:
@@ -57,7 +57,6 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: ホームページ, description: home, url: 'anime.noz.jp'}   
     - {title: すべての記事, description: archive, url: '/archive'}   
     - {title: ラベル, description: tags, url: '/tags'}      
     - {title: コミュニティについて, description: about, url: '/about'}      
