@@ -70,12 +70,12 @@
         <div class = "footer_div">  
            <p class="copyright text-muted">
             Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} Dev by <a href="anime.noz.jp">DarkStudio</a> |
-            </p>
+            <p>[Server Running For >⁠.⁠< <span id="running-time"></span> second.]</p>
+           </p>
         	<div align="right">
     			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
           <!-- 访问统计 -->
-           <p>Blog ini berjalan selama <span id="running-time"></span> detik.</p>
 
   <script>
     var startTime = new Date('{{ site.time | date: "%Y-%m-%d %H:%M:%S" }}');
