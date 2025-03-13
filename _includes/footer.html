@@ -75,7 +75,22 @@
     			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
           <!-- 访问统计 -->
-          <span id="busuanzi_container_site_pv">
+           <p>Blog ini berjalan selama <span id="running-time"></span> detik.</p>
+
+  <script>
+    var startTime = new Date('{{ site.time | date: "%Y-%m-%d %H:%M:%S" }}');
+    var currentTime = new Date();
+    var diffTime = currentTime.getTime() - startTime.getTime();
+    var seconds = Math.floor(diffTime / 1000);
+
+    document.getElementById("running-time").innerHTML = seconds;
+
+    setInterval(function() {
+      seconds++;
+      document.getElementById("running-time").innerHTML = seconds;
+    }, 1000);
+  </script>
+                <span id="busuanzi_container_site_pv">
             総訪問数 
             <span id="busuanzi_value_site_pv"></span>次
           </span>
