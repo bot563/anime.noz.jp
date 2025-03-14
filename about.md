@@ -27,5 +27,11 @@ title: 私たちについて
 
 <p> 
 
-{% include comments.html %}
+{% if page.comments %}
+---
+layout: default
+comments: true
+# other options
+---
+{% endif %}
 
